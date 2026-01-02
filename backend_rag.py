@@ -132,7 +132,7 @@ client = MultiServerMCPClient(
         "arith": {
             "transport": "stdio",
             "command": "python",
-            "args": ["mcp_server.py"]
+            "args": ["./mcp_server.py"]
         }
         
     }
